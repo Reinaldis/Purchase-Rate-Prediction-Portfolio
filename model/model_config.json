@@ -1,0 +1,52 @@
+{
+  "best_model": "CatBoost",
+  "feature_names": [
+    "n_events",
+    "n_view",
+    "n_cart",
+    "n_unique_products",
+    "n_unique_categories",
+    "n_unique_brands",
+    "view_to_cart_ratio",
+    "has_cart",
+    "browse_to_action",
+    "product_per_event",
+    "session_duration_min",
+    "hour_of_day",
+    "day_of_week",
+    "is_weekend",
+    "avg_price_viewed",
+    "max_price_viewed",
+    "min_price_viewed",
+    "std_price_viewed",
+    "price_range",
+    "avg_price_carted",
+    "total_cart_value",
+    "n_cart_items",
+    "cart_vs_view_price_ratio",
+    "recency_days",
+    "tenure_days",
+    "total_sessions",
+    "is_repeat_buyer",
+    "events_per_session"
+  ],
+  "optimal_threshold": 0.85,
+  "version": "3.0.0",
+  "date": "2026-03-27",
+  "split": "temporal",
+  "metrics": {
+    "auc_roc": 0.9953,
+    "auc_roc_ci": [
+      0.9948,
+      0.9957
+    ],
+    "pr_auc": 0.9382,
+    "f1": 0.8011,
+    "precision": 0.6835,
+    "recall": 0.9675
+  },
+  "scale_pos_weight": 19.67,
+  "n_train": 392506,
+  "n_test": 98127,
+  "n_features": 28
+}

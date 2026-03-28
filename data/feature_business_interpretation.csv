@@ -1,0 +1,11 @@
+Rank,Feature,Importance,Business Meaning,Actionable Recommendation
+1,events_per_session,31.0787,Rata-rata event per sesi historis — proxy engagement depth. User aktif jauh lebih mungkin beli.,Prioritaskan retargeting ke user dengan events_per_session > median. ROI tertinggi.
+2,total_sessions,12.6606,Jumlah sesi historis user — sinyal loyalitas dan familiarity dengan platform.,Buat loyalty program: user 3+ sesi mendapat early access atau diskon eksklusif.
+3,n_events,8.8374,Total event dalam sesi ini — sesi lebih panjang = engagement lebih dalam.,Trigger real-time notification saat sesi melampaui 5+ events tanpa purchase.
+4,max_price_viewed,6.9477,Harga tertinggi produk yang dilihat — user yang riset produk mahal lebih purposeful.,Tampilkan customers also bought di halaman produk premium untuk nudge conversion.
+5,is_repeat_buyer,6.1493,User pernah beli sebelumnya — past behavior = best predictor of future behavior.,Repeat buyer campaign: special bundle atau cross-sell otomatis setelah purchase pertama.
+6,day_of_week,5.3661,Hari dalam minggu — ada pola temporal subtle dalam keputusan pembelian electronics.,A/B test timing campaign berdasarkan day_of_week — sesuaikan messaging per hari.
+7,n_view,4.4097,Jumlah event view — browsing depth sebelum keputusan.,Reduce friction di browsing flow — optimasi loading speed dan product recommendation.
+8,min_price_viewed,4.3681,Harga terendah yang dilihat — menangkap floor budget user.,Tawarkan price-match guarantee untuk user yang melihat produk murah.
+9,avg_price_viewed,3.8433,Rata-rata harga produk yang dilihat — proxy budget range user.,Dynamic pricing alert: kirim notification saat produk di range harga user turun.
+10,hour_of_day,2.2497,Jam sesi dimulai — pola pembelian terkonsentrasi di jam kerja (puncak 10:00).,Schedule push notification dan email campaign di sekitar jam 10:00 (peak conversion).
